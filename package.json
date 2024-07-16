@@ -1,0 +1,27 @@
+{
+  "name": "srv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start": "tsx ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "better-sqlite3": "^11.1.2",
+    "koa": "^2.15.3",
+    "koa-tree-router": "^0.12.1",
+    "mime": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/koa": "^2.15.0",
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2"
+  }
+}
